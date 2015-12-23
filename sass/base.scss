@@ -33,9 +33,12 @@ a {
   font-weight: 600;
   text-decoration: none; }
 
-a:hover {
+a:focus, a:hover {
   text-decoration: underline;
-  cursor: pointer; }
+  cursor: pointer;
+  color: $sci_color
+}
+
 
 .container, .container-fluid {
   width: 100%;

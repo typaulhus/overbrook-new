@@ -35,9 +35,10 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:focus, a:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #b62f29;
 }
 
 .container, .container-fluid {

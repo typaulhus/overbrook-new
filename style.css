@@ -187,9 +187,14 @@ h1.landingTitle {
   background-color: #373737;
   color: #ffffff;
   padding: 0 3%;
-  height: 50px;
+  height: 58px;
   position: relative;
+  border-bottom: 8px solid #b62f29;
+  /*margin-bottom: 1em;*/
 }
+  .theHeader a:focus {
+    color: #b62f29;
+  }
   .theHeader .logo {
     float: left;
     margin: 0;
@@ -220,14 +225,14 @@ h1.landingTitle {
         }
         .theHeader nav li a:hover {
           color: #fff;
-          background-color: #4283b9; }
-
+          background-color: #b62f29; }
+s
 .WWD_MenuBtn.activeHover {
-  background-color: #4283b9;
+  background-color: #b62f29;
 }
 
 #menu-main .current-menu-item, #menu-main .current-page-ancestor {
-  background-color: #4283b9;
+  background-color: #b62f29;
 }
 
 .intro{
@@ -235,7 +240,7 @@ h1.landingTitle {
   font-size: 1.2em;
 }
 
-.wwd_box {
+/*.wwd_box {
   background-color: #4283b9;
   position: absolute;
   padding: 2% 0;
@@ -254,7 +259,7 @@ h1.landingTitle {
 .wwd_box .wwd_menu {
   margin: 0;
   padding: 0;
-}
+}*/
 
 .wwd_box li {
   list-style-type: none;
@@ -344,7 +349,7 @@ body {
     .sideNav li a {
       display: block; }
     .sideNav li.current-menu-item > a {
-      background-color: #4283b9;
+      background-color: #b62f29;
       margin-left: -10px;
       padding-left: 10px; }
     .sideNav li li.current-menu-item > a{
@@ -440,7 +445,7 @@ vertical-align: top;
 
 .btn_action {
   border: none;
-  background-color: #4283b9;
+  background-color: #b62f29;
   border-radius: 6px;
   padding: 6px 15px;
   font-weight: 700;
@@ -449,8 +454,8 @@ vertical-align: top;
 
 .content {
   *zoom: 1;
-  float: right;
-  width: 69%;
+  /*float: right;
+  width: 69%;*/
   padding-right: 3%;
   padding-bottom: 50px; }
 
@@ -472,13 +477,15 @@ vertical-align: top;
     display: table;
     clear: both; }
   .content img, .pageContent img {
+    width: 100%;
+    height: auto;
     max-width: 100%;
     margin-bottom: 15px; }
 
 .callout {
   *zoom: 1;
   font-style: italic;
-  color: #4283b9;
+  color: #b62f29;
   clear: both;
   line-height: 22px;
   display: block;
@@ -497,7 +504,7 @@ vertical-align: top;
 .featured {
   background-image:url('images/overbrook_home.jpg');
   border-bottom: 8px solid;
-  border-color: #4283b9;
+  border-color: #b62f29;
   height: 300px;
   padding: 0 5%;
   margin: 0;

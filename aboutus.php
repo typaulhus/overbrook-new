@@ -5,8 +5,6 @@ Template Name: AboutUs
 
 get_header(); ?>
 
-<div class="pageHeadBreak"></div>
-
 <?php get_template_part( 'sidebar' , 'aboutus'); ?>
 
 		<div class="content aboutUs" role="main">
