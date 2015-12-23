@@ -27,6 +27,10 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script>
 
+<!-- Put this right before the </body> closing tag -->
+<script>
+  // var nav = responsiveNav(".nav-collapse");
+</script>
 
 <?php wp_footer(); ?>
 

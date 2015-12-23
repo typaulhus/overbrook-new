@@ -4,6 +4,8 @@ Template Name: LDTD
 */
 
 get_header(); ?>
+<?php get_template_part( 'sidebar' , 'ldtd'); ?>
+<div class="col-sm-9">
 
 		<div id="primary" class="content-area">
 
@@ -56,5 +58,6 @@ get_header(); ?>
 
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
-<?php get_template_part( 'sidebar', 'ldhd' ); ?>
+	</div>
+<!-- <?php get_template_part( 'sidebar', 'ldhd' ); ?> -->
 <?php get_footer(); ?>
