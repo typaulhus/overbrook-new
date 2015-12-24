@@ -54,7 +54,7 @@
 		<h2 class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 
 
-		<nav class="" role="navigation">
+		<nav class="osiMenu" role="navigation">
 			<?php wp_nav_menu( array(
 				'theme_location' => 'primary',
 				//  'container_class' => 'nav-collapse poop',

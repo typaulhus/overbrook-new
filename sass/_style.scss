@@ -59,19 +59,24 @@ hr {
   clear: both;
 }
 
+#main {
+    margin-top: 1em;
+}
+
 .content p, .content li, .content a {
   font-size: 15px;
   line-height: 22px; }
 .content p {
   margin: 0 0 28px; }
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content a {
-  color: #b62f29;
+  color: $sci_color;
   font-family: 'FrutigerNextPro-Light';
 }
-// h1, h2, h3, h4, h5, h6, a {
-//   color: #b62f29;
-//   font-family: 'FrutigerNextPro-Light';
-// }
+
+h1, h2, h3, h4, h5 {
+  color: $sci_color;
+}
+
 .content h1 {
   font-family: 'FrutigerNextPro-Light';
   font-weight: normal;
@@ -150,7 +155,9 @@ h1.landingTitle {
   font-size: 36px;
   border-bottom: 6px solid;
   padding: 0 0 12px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 0;
+}
   h1.landingTitle span {
     color: #373737; }
 
@@ -566,82 +573,83 @@ vertical-align: top;
 
 .content.aboutUs {
   padding-top: 20px;
-  background: url("images/about_headerGraphic.jpg") no-repeat right top;
+  background: url("../images/about_headerGraphic.jpg") no-repeat right top;
+  margin-top: -1em;
 }
 
-a.osilogo {
-  background: url("images/osi_logo.png");
-  display: block;
-  width: 252px;
-  height: 85px;
-  text-indent: -9999px;
-}
+// a.osilogo {
+//   background: url("images/osi_logo.png");
+//   display: block;
+//   width: 252px;
+//   height: 85px;
+//   text-indent: -9999px;
+// }
+//
+// a.osiwhite {
+//   background: url("images/osi_logo_white.png");
+//   display: block;
+//   width: 151px;
+//   height: 42px;
+//   text-indent: -9999px;
+//   margin-bottom: 15px;
+// }
+//
+// a.oaslogo {
+//   background: url("images/oas_logo.png");
+//   display: block;
+//   width: 260px;
+//   height: 85px;
+//   text-indent: -9999px;
+// }
+//
+// a.oaswhite {
+//   background: url("images/oas_logo_white.png");
+//   display: block;
+//   width: 151px;
+//   height: 42px;
+//   text-indent: -9999px;
+//   margin-bottom: 15px;
+// }
+//
+// a.osslogo {
+//   background: url("images/oss_logo.png");
+//   display: block;
+//   width: 252px;
+//   height: 85px;
+//   text-indent: -9999px;
+// }
+//
+// a.osswhite {
+//   background: url("images/oss_logo_white.png");
+//   display: block;
+//   width: 151px;
+//   height: 42px;
+//   text-indent: -9999px;
+//   margin-bottom: 15px;
+// }
 
-a.osiwhite {
-  background: url("images/osi_logo_white.png");
-  display: block;
-  width: 151px;
-  height: 42px;
-  text-indent: -9999px;
-  margin-bottom: 15px;
-}
-
-a.oaslogo {
-  background: url("images/oas_logo.png");
-  display: block;
-  width: 260px;
-  height: 85px;
-  text-indent: -9999px;
-}
-
-a.oaswhite {
-  background: url("images/oas_logo_white.png");
-  display: block;
-  width: 151px;
-  height: 42px;
-  text-indent: -9999px;
-  margin-bottom: 15px;
-}
-
-a.osslogo {
-  background: url("images/oss_logo.png");
-  display: block;
-  width: 252px;
-  height: 85px;
-  text-indent: -9999px;
-}
-
-a.osswhite {
-  background: url("images/oss_logo_white.png");
-  display: block;
-  width: 151px;
-  height: 42px;
-  text-indent: -9999px;
-  margin-bottom: 15px;
-}
-
-.groupSummary {
-  width: 30%;
-  float: left;
-  margin-right: 5%; }
-.groupSummary p {
-    font-size: 13px;
-    line-height: 20px; }
-  .groupSummary:last-child {
-    margin-right: 0; }
-  .groupSummary ul {
-    margin: 0;
-    padding: 0; }
-  .groupSummary li {
-    list-style-type: none;
-    margin: 0;
-    padding: 2px 0;
-    border-bottom: 1px solid #ccc;
-  }
-    .groupSummary li a {
-      line-height: 18px; }
-    .groupSummary li:last-child {
-      margin-bottom: 5px; }
+// .groupSummary {
+//   width: 30%;
+//   float: left;
+//   margin-right: 5%; }
+// .groupSummary p {
+//     font-size: 13px;
+//     line-height: 20px; }
+//   .groupSummary:last-child {
+//     margin-right: 0; }
+//   .groupSummary ul {
+//     margin: 0;
+//     padding: 0; }
+//   .groupSummary li {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 2px 0;
+//     border-bottom: 1px solid #ccc;
+//   }
+//     .groupSummary li a {
+//       line-height: 18px; }
+//     .groupSummary li:last-child {
+//       margin-bottom: 5px; }
 
 .note {
   background-color: #F1F2EC;
