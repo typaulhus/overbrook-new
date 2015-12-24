@@ -14,10 +14,6 @@
 /* -------------------------------------------
     Global
 ---------------------------------------------*/
-// body {
-//   font-family: 'Open Sans', sans-serif;
-//   color: #373737;
-//   background-color: #f5f5f5; }
 
 body {
 	font-family: $mainFont;
@@ -315,3 +311,13 @@ nav a:hover {
 
 .atAGlance a.contactMe {
   margin: 0 0 0 35px; }
+
+  /* -------------------------------------------
+      contactImage
+  ---------------------------------------------*/
+
+.overbrookContact {
+  img {
+    width: auto;
+  }
+}

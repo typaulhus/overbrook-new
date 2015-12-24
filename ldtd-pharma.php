@@ -5,7 +5,7 @@ Template Name: LDTD - Pharmaceutical
 
 get_header(); ?>
 <?php get_template_part( 'sidebar' , 'ldtd'); ?>
-<div class="col-sm-9">
+<div class="col-sm-9 content">
 	<h1 class="LDTDheading">Laser Diode Thermal Desorption - Application Notes</h1>
 	<h2 class="pageSubTitle"><?php the_title(); ?></h2>
 

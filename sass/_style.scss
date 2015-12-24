@@ -68,6 +68,10 @@ hr {
   color: #b62f29;
   font-family: 'FrutigerNextPro-Light';
 }
+// h1, h2, h3, h4, h5, h6, a {
+//   color: #b62f29;
+//   font-family: 'FrutigerNextPro-Light';
+// }
 .content h1 {
   font-family: 'FrutigerNextPro-Light';
   font-weight: normal;
@@ -80,6 +84,11 @@ hr {
   font-weight: 300;
   color: #999;
   margin-top: -12px; }
+  .pageSubTitle {
+    font-size: 28px;
+    font-weight: 300;
+    color: #999;
+    margin-top: -12px; }
 .content ul, .content ol {
   margin: 0 0 28px 16px;
   padding: 0; }
@@ -202,8 +211,8 @@ h1.landingTitle {
     margin: 0;
     padding: 0;
     text-indent: -9999px;
-    background: url("images/overbrook_logo.png") no-repeat left center;
-    width: 120px;
+    background: url("../images/osi_logo_white.png") no-repeat left center;
+    width: 143px;
     height: 50px;
   }
   .theHeader .logo a {
@@ -223,7 +232,6 @@ h1.landingTitle {
         display: block;
         line-height: 50px;
         padding: 0 20px;
-        /*transition: all 0.05s ease-in; */
         }
         .theHeader nav li a:hover {
           color: #fff;
@@ -263,26 +271,26 @@ s
   padding: 0;
 }*/
 
-.wwd_box li {
-  list-style-type: none;
-  border-bottom: 1px solid #6BA8DE;
-  padding: 5px 0;
-}
-
-.wwd_box section a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 300;
-  font-style: 12px;
-}
-
-.wwd_box section a:hover {
-  color: #97bbeb;
-}
-
-.wwd_box section a.learnMore_link {
-  font-weight: 600;
-}
+// .wwd_box li {
+//   list-style-type: none;
+//   border-bottom: 1px solid #6BA8DE;
+//   padding: 5px 0;
+// }
+//
+// .wwd_box section a {
+//   color: #fff;
+//   text-decoration: none;
+//   font-weight: 300;
+//   font-style: 12px;
+// }
+//
+// .wwd_box section a:hover {
+//   color: #97bbeb;
+// }
+//
+// .wwd_box section a.learnMore_link {
+//   font-weight: 600;
+// }
 
 footer {
   clear: both;

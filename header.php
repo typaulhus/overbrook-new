@@ -23,10 +23,11 @@
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160" />
 
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
 <!-- BOOTSTRAP -->
-<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/MyFontsWebfontsKit.css">
@@ -38,8 +39,8 @@
 <?php wp_enqueue_script("jquery"); ?>
 
 <!-- Responsive-nav -->
-<link rel="stylesheet" href="responsive-nav.css">
-<script src="<?php bloginfo('template_directory'); ?>/js/responsive-nav.min.js"></script>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/js/responsive-nav/responsive-nav.css">
+<script src="<?php bloginfo('template_directory'); ?>/js/responsive-nav/responsive-nav.min.js"></script>
 
 <?php wp_head(); ?>
 </head>
@@ -53,8 +54,12 @@
 		<h2 class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 
 
-		<nav  class="nav-collapse" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		<nav class="" role="navigation">
+			<?php wp_nav_menu( array(
+				'theme_location' => 'primary',
+				//  'container_class' => 'nav-collapse poop',
+			)
+		); ?>
 		</nav><!-- #site-navigation -->
 
 
