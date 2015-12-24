@@ -12,8 +12,6 @@
 
 get_header(); ?>
 
-<div class="pageHeadBreak"></div>
-
 <div class="content contentOnly" role="main">
 
 	<?php while ( have_posts() ) : the_post(); ?>
