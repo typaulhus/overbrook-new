@@ -1,5 +1,16 @@
 @import url(../css/normalize.css);
 /* Colors */
+/* Buttons */
+.overbrookBtn {
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.overbrookBtn:hover {
+  color: #fff;
+  box-shadow: 0px 0px 3px #999;
+}
+
 /*
 Theme Name: overbrook
 Theme URI: http://underscores.me/

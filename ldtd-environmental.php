@@ -35,7 +35,7 @@ get_header(); ?>
 				</header>
 				<ul class="note-info">
 					<li><strong>Partnership: </strong><?php the_field('partnership'); ?></li>
-					<a href="<?php the_field('file'); ?>">Download</a>
+					<a class="overbrookBtn" href="<?php the_field('file'); ?>">Download</a>
 					<li><strong>Molecules: </strong><?php the_field('molecules'); ?></li>
 					<li><strong>Matrix: </strong><?php the_field('matrix'); ?></li>
 					<li><strong>Extraction Method: </strong><?php the_field('extraction_method'); ?></li>
